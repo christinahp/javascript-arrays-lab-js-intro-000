@@ -20,3 +20,8 @@ var destructivelyRemoveFirstKitten = () => {
   kittens.shift()
   return kittens
 }
+
+var appendKitten = name => {
+  var newKittenArray = kittens.push(name)
+  return newKittenArray
+}
